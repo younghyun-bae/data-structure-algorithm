@@ -92,4 +92,27 @@ const sum = (arr) => {
     total += arr[i];
   }
   return total;
-}
+} // O(1) space
+
+const double = (arr) => {
+  let newArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    newArr.push(2 * arr[i]);
+  }
+  return newArr;
+} // O(n) space
+console.log([1, 2, 3]); // (3) [2, 4, 6]
+
+// Logarithms
+// The logarithm of a number roughly mearsures the number of times you can divide that number by 2 before you get a value that's less than or equal to one.
+// comlexity is great! O(n) > O(log n) > O(n) > O(nlog n) > O(n^2)
+// Certain searching algorithms have logarithmic time complexity.
+// Efficient sorting algorithms involve logarithms.
+// Recursion sometimes involves logarithmic space complexity.
+
+// Recap
+// To analyze the performance of an algorithm, we use Big O Notation
+// Big O Notation can give us a high level understanding of the time or space somplexity of an algotithm
+// Big O Notation doesn't care about precision, only about general trends (linear? quadratic? constant?)
+// The time or space complexity (as measured by Big O) depends only on the algorithm, not the hardware used to run the algorithm
+//Big O Notation is everywhere, so get lots of practice!
