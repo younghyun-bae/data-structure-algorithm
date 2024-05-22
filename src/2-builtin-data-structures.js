@@ -33,7 +33,7 @@ let values = [true, {}, [], 2, "awesome"];
 // Arrays, Ordered lists
 // to use arrays
 // when you need order
-// when you need fast access / insertion and removal (srot of...)
+// when you need fast access / insertion and removal (srot of...)d
 
 // Big O of Arrays
 // Insertion - It depends... at the beginning O(n)
