@@ -373,6 +373,6 @@ const search2 = (arr, val) => {
   }
 }
 
-//Test 36~39 
+//Go Test 36~39 
 
 
